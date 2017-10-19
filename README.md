@@ -12,7 +12,7 @@ Great for usability testing recordings and screencasts, stopwatch is included.
 - Works offline
 
 ## Capture
-- use any screensharing app like skype to broadcast 
+- use any screensharing app like skype to broadcast
 - Mac-users can use pre-installed quicktime to capture via "screencast" recording
 
 ## Tech
@@ -23,9 +23,14 @@ Great for usability testing recordings and screencasts, stopwatch is included.
 See it working in action: [Click here](https://hamsterbacke23.github.io/webcamdisplay-react/)
 
 ## Local
-1) Clone it 
+1) Clone it
+
+```bash
+git clone https://github.com/hamsterbacke23/webcamdisplay-react.git
+```
+2) install dependencies and setup screensharing
+  1. ```yarn install``` installs dependencies from yarn.lock/package.json
+  2. ```yarn setup``` sets up ssl
+
 2) run it
-
-```yarn install```
-```npm start```
-
+  ```npm start``` runs the App on https://localhost:3000
