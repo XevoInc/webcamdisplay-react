@@ -41,8 +41,8 @@ export class WebcamDisplay extends React.PureComponent { // eslint-disable-line 
     const constraints = {
       // originally 720p
       // video: { width: 1280, height: 720 },
-      video: { width: 1920, height: 1080 },
-      // video: { width: 3840,  height: 2160 },
+      // video: { width: 1920, height: 1080 },
+      video: { width: 3840, height: 2160 },
       deviceId: { exact: deviceId },
     };
 
